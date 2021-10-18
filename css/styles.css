@@ -1,0 +1,375 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+ } 
+ 
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: "PT Sans", sans-serif;
+}
+
+.page-header,
+.page-main,
+.page-footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  height: 65px;
+  background-color: #fff;
+  text-align: center;
+}
+.page-header .navigation .navigation-list {
+  display: inline-block;
+  list-style-type: none;
+  float: left;
+}
+.page-header .navigation .navigation-list li {
+  display: inline-block;
+  margin-right: 33px;
+}
+.page-header .navigation .navigation-list li:first-child {
+  margin-left: 71px;
+}
+.page-header .navigation .navigation-list li:last-child {
+  margin-right: 0;
+}
+.page-header .navigation .navigation-list li:hover {
+  border-bottom: 2px #756257 solid;
+}
+.page-header .navigation .navigation-list li a {
+  color: #000;
+  line-height: 65px;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.page-header .navigation .logo {
+  display: inline-block;
+}
+
+.page-header .navigation .navigation-user {
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+}
+.page-header .navigation .navigation-user li {
+  display: inline-block;
+  margin-right: 21px;
+}
+.page-header .navigation .navigation-user li:last-child {
+  margin-left: 12px;
+  margin-right: 71px;
+}
+.page-header .navigation .navigation-user li a {
+  color: #000;
+  line-height: 65px;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+.page-header .navigation .navigation-user .favourites {
+  background-color: #7DB54F;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -13px;
+  left: -12px;
+  display: inline-block;
+}
+
+.page-header .navigation .navigation-user .icon {
+  max-width: 18px;
+  max-height: 18px;
+}
+.page-header .navigation .navigation-user .button {
+  background-color: #756257;
+  width: 160px;
+  padding: 10px 40px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #fff;
+}
+.page-header .navigation .navigation-user .button:hover {
+  background-color: #615048;
+}
+.page-header .navigation .navigation-user .button:active span {
+  opacity: 0.3;
+}
+
+
+.welcome {
+  background-color: #fff;
+}
+.welcome .poster {
+  background: url("../img/header-background.jpg") no-repeat;
+  height: 485px;
+  width: 1200px;
+  padding-top: 2px;
+  text-align: center;
+}
+.welcome .poster img {
+  margin-top: 51px;
+}
+.welcome .poster:after {
+  content: url("../img/header-divider.png");
+  height: 57px;
+  width: 1200px;
+  bottom: -21px;
+  left: 0;
+  position: relative;
+}
+.welcome .promo {
+  min-height: 282px;
+  width: 720px;
+  margin: 0 auto;
+  
+}
+.welcome .promo h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+  padding-top: 63px;
+}
+.welcome .promo p {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: #333;
+}
+
+.advantages {
+  background-color: #fff;
+}
+.advantages .advantages-list {
+  list-style-type: none;
+}
+
+.advantages .advantages-list .photo {
+  width: 800px;
+  height: 384px;
+  float: left;
+}
+
+.advantages .advantages-list .advantages-item {
+  width: 400px;
+  height: 384px;
+  text-align: center;
+  float: left;
+}
+.advantages .advantages-list .advantages-item .advantages-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  max-width: 220px;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+.advantages .advantages-list .advantages-item .advantages-description {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  max-width: 220px;
+  margin: 0 auto;
+}
+.advantages .advantages-list .advantages-item .advantages-number {
+  font-size: 18px;
+  padding-bottom: 25px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  max-width: 220px;
+  margin: 0 auto;
+}
+.advantages .advantages-list .advantages-item img {
+  padding-top: 90px;
+  padding-bottom: 23px;
+  height: 75px;
+  width: 75px;
+}
+
+.advantages .advantages-list .advantages-item:nth-child(1) {
+  background-color: #83B3D3;
+  color: #fff;
+}
+.advantages .advantages-list .advantages-item:nth-child(1) .advantages-title,
+.advantages .advantages-list .advantages-item:nth-child(6) .advantages-title,
+.advantages .advantages-list .advantages-item:nth-child(7) .advantages-title,
+.advantages .advantages-list .advantages-item:nth-child(8) .advantages-title,
+.advantages .advantages-list .advantages-item:nth-child(9) .advantages-title,
+.advantages .advantages-list .advantages-item:nth-child(10) .advantages-title {
+  padding-top: 98px;
+}
+.advantages .advantages-list .advantages-item:nth-child(3),
+.advantages .advantages-list .advantages-item:nth-child(5),
+.advantages .advantages-list .advantages-item:nth-child(8),
+.advantages .advantages-list .advantages-item:nth-child(10) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.advantages .advantages-list .advantages-item:nth-child(9) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+.advantages .advantages-list .advantages-item:nth-child(3) .advantages-description {
+  color: #333;
+}
+.advantages .advantages-list .advantages-item:nth-child(4) {
+  background-color: #fff;
+}
+.advantages .advantages-list .advantages-item:nth-child(4) .advantages-description {
+  color: #333;
+}
+.advantages .advantages-list .advantages-item:nth-child(7) {
+  background-color: #83B3D3;
+  color: #fff;
+}
+
+.hotel-search {
+  clear: both;
+  height: 417px;
+  background-color: #fff;
+  text-align: center;
+}
+.hotel-search h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-top: 90px;
+  margin: 0 auto;
+  width: 720px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.hotel-search p {
+  margin: 0 auto;
+  width: 720px;
+  font-size: 22px;
+  padding-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hotel-search .button {
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 73px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #756257;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.subscription {
+  clear: both;
+  height: 411px;
+  background: url("../img/subscribe-background.jpg") #000 no-repeat;
+  text-align: center;
+  color: #fff;
+}
+.subscription h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-top: 90px;
+  margin: 0 auto;
+  width: 720px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.subscription p {
+  margin: 0 auto;
+  width: 720px;
+  font-size: 22px;
+  padding-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.subscription form {
+  margin-top: 60px;
+}
+.subscription form input[type="email"] {
+  height: 60px;
+  width: 600px;
+  font-size: 18px;
+  line-height: 62px;
+  padding: 0 22px;
+  background: #F2F2F2;
+  border-radius: 10px 0px 0px 10px;
+  border: 0px;
+}
+.subscription form button {
+  color: #fff;
+  font-size: 20px;
+  background: #83B3D3;
+  border: 0px;
+  border-radius: 0px 10px 10px 0px;
+  text-transform: uppercase;
+  height: 60px;
+  width: 200px;
+}
+
+.page-footer {
+  height: 120px;
+  line-height: 120px;
+}
+.footer-social,
+.footer-telephone,
+.footer-copyright {
+  display: inline-block;
+}
+.footer-social {
+  width: 165px;
+  padding-left: 70px;
+}
+.footer-social ul.social-list {
+  list-style-type: none;
+}
+.footer-social ul.social-list li.social-item {
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-social ul.social-list li.social-item:last-child {
+  margin-right: 0px;
+}
+.footer-telephone {
+  width: 720px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+.footer-telephone a {
+  color: #000;
+  text-decoration: none;
+}
+.footer-copyright {
+  width: 165px;
+  padding-right: 70px;
+  text-align: right;
+}

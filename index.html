@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
 
@@ -19,59 +20,61 @@
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <img class="logo" src="" alt="Логотип города Седона">
-        <ul class="navigation-list navigation-user">
+        <img class="logo" src="img/logo-sedona.png" width="138" height="70" alt="Логотип города Седона">
+        <ul class="navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <img src="" alt="Поиск">
+              <img src="img/icon-search.png" class="icon" alt="Поиск">
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <img src="" alt="Избранное">
+              <img src="img/icon-favourites.png" class="icon" alt="Избранное">
+              <span class="favourites">12</span>
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link button" href="#">Хочу сюда!</a>
+            <a class="navigation-link button" href="#"><span>Хочу сюда!</span></a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main class="page-main">
-      <section class="promo">
-        <img src="" alt="Добро пожаловать">
-        <img src="" alt="в великолепный город">
-        <img src="" alt="Седона">
-        <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      <section class="welcome">
+        <section class="poster">
+          <img src="img/header-welcome.png" alt="Добро пожаловать в великолепный город Седона" height="352" width="458">
+        </section>
+        <section class="promo">
+          <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+          <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        </section>
       </section>
       <section class="advantages">
         <ul class="advantages-list">
           <li class="advantages-item">
-            <h3 class="advantages-title">Настоящий
-              городок</h3>
+            <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-number">— №1 —</p>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="" alt="Настоящий городок">
           </li>
+          <img src="../img/photo-1.jpg" class="photo" alt="Настоящий городок">
           <li class="advantages-item">
-            <img src="" alt="Жильё">
+            <img src="../img/icon-1.png" alt="Жильё">
             <h3 class="advantages-title">Жильё</h3>
             <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="advantages-item">
-            <img src="" alt="Еда">
+            <img src="../img/icon-2.png" alt="Еда">
             <h3 class="advantages-title">Еда</h3>
             <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="advantages-item">
-            <img src="" alt="Сувениры">
+            <img src="../img/icon-3.png" alt="Сувениры">
             <h3 class="advantages-title">Сувениры</h3>
             <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
+          <img src="../img/photo-2.jpg" class="photo" alt="Там есть мост дьявола">
           <li class="advantages-item">
-            <img src="" alt="Там есть мост дьявола">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-number">— №2 —</p>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
@@ -102,8 +105,7 @@
         <h2>Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/">
-          <button type="email" name="email" placeholder="Ваш e-mail"></button>
-            <button type="submit" value="Подписаться"></button>
+          <input type="email" name="email" placeholder="Ваш e-mail"><button type="submit">Подписаться</button>
         </form>
       </section>
     </main>
@@ -112,13 +114,13 @@
       <section class="footer-social">
         <ul class="social-list">
           <li class="social-item">
-            <a href="#"><img src="" alt="Twitter"></a>
+            <a href="#"><img src="img/social-twitter.png" alt="Twitter"></a>
           </li>
           <li class="social-item">
-            <a href="#"><img src="" alt="Facebook"></a>
+            <a href="#"><img src="img/social-facebook.png" alt="Facebook"></a>
           </li>
           <li class="social-item">
-            <a href="#"><img src="" alt="YouTube"></a>
+            <a href="#"><img src="img/social-youtube.png" alt="YouTube"></a>
           </li>
         </ul>
       </section>
@@ -126,7 +128,7 @@
         <a href="tel:+78128121212">+7 (812) 812-12-12</a>
       </section>
       <section class="footer-copyright">
-        <a href="#"><img src="" alt="HTML Academy"></a>
+        <a href="#"><img src="img/logo-htmlacademy.png" alt="HTML Academy"></a>
       </section>
     </footer>
 
