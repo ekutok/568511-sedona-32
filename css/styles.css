@@ -412,7 +412,6 @@ body {
   margin-right: 150px;
 }
 .catalog-filter-group legend {
-  font-weight: bold;
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: 700;
@@ -460,7 +459,6 @@ body {
   border-radius: 4px;
   border: 0;
   color: #fff;
-  font-family: PT Sans;
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
